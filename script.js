@@ -75,10 +75,10 @@ class BooksCollection {
     let books = '';
     for (let i = 0; i < arr.length; i += 1) {
       arr[i].id = i;
-      books += `<p>${arr[i].title}</p>
+      books += `<div class="book-line"><p>"${arr[i].title}"</p>
       <p>${arr[i].author}</p>
-      <button onclick="booksCollection.removeBook(${i})">Remove</button>
-      <hr/>`;
+      <button class="remove" onclick="booksCollection.removeBook(${i})">Remove</button>
+      </div>`;
     }
     return books;
   }
