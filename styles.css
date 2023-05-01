@@ -52,6 +52,7 @@ p {
   width: 350px;
   height: 30px;
   border: 2px solid black;
+  font-size: large;
 }
 
 #form > input::placeholder {
