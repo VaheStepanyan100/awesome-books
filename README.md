@@ -83,6 +83,10 @@ Clone this repository to your desired folder:
 
 - GitHub: [VaheStepanyan100](https://github.com/VaheStepanyan100)
 
+👤 **Author2**
+
+- GitHub: [leloufadel](https://github.com/leloufadel)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
