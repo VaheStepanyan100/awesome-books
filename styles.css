@@ -1,3 +1,33 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding: 8px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+.nav-link {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-link > a:not(:last-child) {
+  border-right: 2px solid black;
+  padding-right: 8px;
+}
+
 .heading {
   text-align: center;
 }
@@ -26,26 +56,17 @@
   background-color: #ddd;
 }
 
-hr {
-  width: 150px;
-  border: 1.5px solid black;
-  margin-top: 20px;
-}
-
 p {
   font-weight: bold;
   font-size: medium;
 }
 
 #form {
+  margin-top: 130px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#form > h3 {
-  font-size: xx-large;
 }
 
 #form > input {
@@ -67,4 +88,34 @@ p {
   background: none;
   padding: 4px 8px;
   border: 2px solid black;
+}
+
+.contact-info {
+  font-size: larger;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.awesome-books {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#footer {
+  margin-top: auto;
+}
+
+#footer > p {
+  border: 1px solid black;
+  padding: 8px;
 }
